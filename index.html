@@ -344,10 +344,10 @@
 
       const message = `Halo, saya mau pesan Es Umbi Ungu!%0A%0A` +
                       ` *Nama:* ${encodeURIComponent(name)}%0A` +
-                      `*Ukuran:* ${selectedSize}%0A` +
-                      `*Topping:* ${toppingStr}%0A` +
-                      `*Jumlah:* ${qty} cup%0A` +
-                      `*Total:* Rp ${total.toLocaleString('id-ID')}%0A%0A` +
+                      ` *Ukuran:* ${selectedSize}%0A` +
+                      ` *Topping:* ${toppingStr}%0A` +
+                      ` *Jumlah:* ${qty} cup%0A` +
+                      ` *Total:* Rp ${total.toLocaleString('id-ID')}%0A%0A` +
                       `Mohon diproses ya, terima kasih!`;
 
       window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
