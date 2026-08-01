@@ -179,12 +179,12 @@
       // Build plain-text message, then encode once
       const message = 
         `Halo, saya mau pesan Minuman Ubi Ungu!\n\n` +
-        `👤 Nama: ${name}\n` +
-        `🥤 Ukuran: ${selectedSize}\n` +
-        `🧀 Topping: ${toppingStr}\n` +
-        `🔢 Jumlah: ${qty} cup\n` +
-        `💰 Total: Rp ${total.toLocaleString('id-ID')}\n\n` +
-        `Mohon ditunggu ya, terima kasih!`;
+        ` Nama: ${name}\n` +
+        ` Ukuran: ${selectedSize}\n` +
+        ` Topping: ${toppingStr}\n` +
+        ` Jumlah: ${qty} cup\n` +
+        ` Total: Rp ${total.toLocaleString('id-ID')}\n\n` +
+        `Mohon diproses ya, terima kasih!`;
 
       const encoded = encodeURIComponent(message);
       const url = `https://wa.me/${whatsappNumber}?text=${encoded}`;
